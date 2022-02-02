@@ -1,4 +1,6 @@
+//importing react to be able to use JSX which will then be transformed to the native components of each platform
 import React, { Component } from 'react'
+//importing the text and view components from react-native
 import {
   StyleSheet,
   TouchableOpacity,
@@ -6,6 +8,7 @@ import {
   View,
 } from 'react-native'
 
+//creating class
 class App extends Component {
   state = {
     count: 0
@@ -36,6 +39,7 @@ class App extends Component {
   }
 }
 
+//React Native Styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,
